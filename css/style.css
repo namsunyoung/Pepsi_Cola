@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*3.클래스 선택자*/
+.logo {
+	text-align: center;
+	margin: 0 ;
+	padding : 50px 0;
+	
+}
+
+/*CSS의 규칙이 하나의 요소에 충돌했을때 우선 순위를 결정하는 방법 */
+.nav {
+	background-color: #005891;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 0;
+	
+}
+.nav ul {
+	text-align: center;
+}
+.nav li{ /* ul.nav : 종속 선택자 , (공백) : 후손/자손 선택자*/
+	display: inline; 
+	margin:0 10px ;
+}
+.nav a {
+	color: white;
+}
+.nav a:hover{
+	color: #fcff00;
+	
+}
+.promotion {
+	text-align: center;
+	margin-top: 30px;
+}
+.official { 
+	Width:606px;
+	margin:50px auto;	
+	font-size: 0;
+	
+}
+.social {
+		text-align: center;
+		margin:50px auto;	
+}
+.contact{
+		text-align: center;
+}
+/*4.아이디 선택자*/
+
+/*5.그룹 선택자*/
+.official h1, .official p {
+	text-align: center;
+}
+.title {
+	margin: 0;
+}
+h1,h2,p {
+		text-align: center;
+		margin: 30px 0;
+}
+/*6.의사 선택자*/
+/*7.자손(=후손) 선택자*/
+.official h1 {
+	font-size:22px;
+}
+.official p {
+	font-size:16px;
+	margin: 10px 0 20px; /* (바깥)여백: */
+}
